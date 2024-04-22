@@ -149,7 +149,6 @@ document.addEventListener('DOMContentLoaded', function () {
         teamSection.scrollIntoView({ behavior: 'smooth' });
     });
 })
-
 sectionAnimation();
 teamAnimation();
 slidesAnimation();
