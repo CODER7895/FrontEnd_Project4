@@ -1,0 +1,77 @@
+*::selection{
+    background-color: gray;
+}
+
+body[theme="black"]{
+    background-color: black;
+}
+
+body[theme="black"] .section{
+    color: white;
+}
+
+body{
+    transition: background-color ease-out .5s;
+}
+
+body[theme="cyan"]{
+    background-color: rgb(105, 187, 217);
+}
+
+body[theme="cyan"] .section{
+    color:  #1d3036;
+}
+
+body[theme="salmon"]{
+    background-color: #e3a178; 
+}
+
+body[theme="salmon"] .section{
+    color: rgb(24, 17, 17);
+}
+
+body[theme="white"]{
+    background-color: white;
+}
+
+body[theme="white"] .section{
+    color: black;
+}
+
+body[theme="gray"]{
+    background-color: rgb(187, 187, 187);
+}
+body[theme="gray"] .section{
+    color: black;
+}
+
+#clip img{
+    clip-path: polygon(1% 14%, 100% 14%, 100% 83%, 75% 83%, 79% 100%, 45% 83%, 0 83%);
+}
+.vdodiv{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+body{
+    overflow-x: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #d4d4d4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
